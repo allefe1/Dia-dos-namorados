@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para você, Bruna - Nossa História</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="initials">A & B</div>
+            <div class="heart">❤</div>
+            <div class="loading-text">Carregando nossa história...</div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content" style="display: none;">
+        
+        <!-- Seção 1: Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">Para você, Bruna.</h1>
+                <p class="hero-subtitle">Um pequeno pedaço da nossa história.<br>Com amor, Allefe.</p>
+                <div class="scroll-indicator">
+                    <span>Role para descobrir</span>
+                    <div class="arrow-down"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2: Nosso Tempo Juntos -->
+        <section id="tempo-juntos" class="section">
+            <div class="container">
+                <h2 class="section-title">A contagem de um amor sem fim</h2>
+                <div class="contador-container">
+                    <div class="contador-item">
+                        <span class="contador-numero" id="anos">0</span>
+                        <span class="contador-label">Anos</span>
+                    </div>
+                    <div class="contador-item">
+                        <span class="contador-numero" id="meses">0</span>
+                        <span class="contador-label">Meses</span>
+                    </div>
+                    <div class="contador-item">
+                        <span class="contador-numero" id="dias">0</span>
+                        <span class="contador-label">Dias</span>
+                    </div>
+                </div>
+                <p class="contador-subtitle">Desde 06 de fevereiro de 2023</p>
+            </div>
+        </section>
+
+        <!-- Seção 3: Nossa Trilha Sonora -->
+        <section id="trilha-sonora" class="section">
+            <div class="container">
+                <h2 class="section-title">A Playlist da Nossa Vida</h2>
+                <div class="music-player">
+                    <div class="player-controls">
+                        <button id="prev-btn" class="control-btn">⏮</button>
+                        <button id="play-btn" class="control-btn play-pause">▶</button>
+                        <button id="next-btn" class="control-btn">⏭</button>
+                    </div>
+                    <div class="song-info">
+                        <div class="song-title" id="song-title">Selecione uma música</div>
+                        <div class="song-artist" id="song-artist">Artista</div>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                        <div class="time-info">
+                            <span id="current-time">0:00</span>
+                            <span id="duration">0:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="playlist-note">
+                        <p>🎵 Aqui ficará nossa playlist especial</p>
+                        <p class="note-small">Aguardando as músicas que marcaram nossa história...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 4: Linha do Tempo -->
+        <section id="linha-tempo" class="section">
+            <div class="container">
+                <h2 class="section-title">Capítulos da Nossa História</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-date="06/02/2023" data-content="começo">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>O Começo de Tudo</h3>
+                        <p>06 de fevereiro de 2023 - O dia que nossas vidas se encontraram</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="12/06/2023" data-content="namorados">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Nossas Idas a Praia</h3>
+                        <p>12 de setembro de 2023 - Nossa primeira comemoração especial</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-date="31/12/2023" data-content="ano-novo">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Primeiro Fim de Ano Juntos</h3>
+                        <p>31 de dezembro de 2023 - o Fim do ano com você é muito melhor</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 5: Galeria -->
+<section id="galeria" class="section">
+    <div class="container">
+        <h2 class="section-title">Pequenos Momentos, Grandes Memórias</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-image="images/foto1.jpg">
+                <img src="images/foto1.PNG" alt="Primeira Vez Que Ficamos Juntos" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Primeiro Vez que Ficamos Juntos</h3>
+                    <p>O dia que mudou tudo</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-image="images/foto2.jpg">
+                <img src="images/foto2.JPG" alt="Momento especial juntos" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Momento Especial</h3>
+                    <p>Risadas e cumplicidade</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-image="images/foto3.jpg">
+                <img src="images/foto3.JPG" alt="Viagem romântica" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Nossa Viagem</h3>
+                    <p>Descobrindo o mundo juntos</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-image="images/foto4.jpg">
+                <img src="images/foto4.jpg" alt="Celebração especial" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Celebração</h3>
+                    <p>Primeiro Fim De Ano Juntos</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-image="images/foto5.jpg">
+                <img src="images/foto5.jpg" alt="Dia a dia especial" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Nosso Dia a Dia</h3>
+                    <p>Beleza na simplicidade</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-image="images/foto6.jpg">
+                <img src="images/foto6.jpg" alt="Momento atual" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Dia Que Entreguei a Aliança</h3>
+                    <p>Nosso amor crescendo</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-image="images/foto7.jpg">
+                <img src="images/foto7.jpg" alt="Momento atual" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Dia Dos Namorados</h3>
+                    <p>Quando Saímos para Comemorar</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-image="images/foto8.jpg">
+                <img src="images/foto8.jpg" alt="Momento atual" loading="lazy">
+                <div class="gallery-overlay">
+                    <h3>Primeiro Show</h3>
+                    <p>Showzin De Alçeu</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="gallery-note">
+            <p>💝 Clique nas fotos para vê-las em tamanho maior</p>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Seção 6: Carta Aberta -->
+        <section id="carta" class="section">
+            <div class="container">
+                <h2 class="section-title">De: Allefe Filipe, Para: Bruna Lara</h2>
+                <div class="carta-container">
+                    <div class="carta-content">
+                        <div id="carta-texto" class="carta-texto">
+                            <p>Para minha Bruninha,</p>
+                            <p>Este site é mais do que apenas um presente é um registro e uma declaração de amor digital, criada especialmente para você neste Dia dos Namorados.</p>
+                            <p>Cada seção aqui representa um pedaço da nossa história, cada animação eu tentei trazer todo o carinho que sinto por você, e cada detalhe foi pensado para te fazer sorrir.</p>
+                            <p>Desde aquele 6 de fevereiro de 2023, minha vida ganhou cores mais vivas, sorrisos mais sinceros e um amor mais profundo. Você transformou meus dias em algo extraordinário.</p>
+                            <p>Obrigado por ser minha companheira, minha melhor amiga, meu amor. Obrigado por cada risada, cada momento de cumplicidade, cada abraço que me faz sentir em casa.</p>
+                            <p>Este é apenas o começo da nossa história. Que venham muitos outros capítulos, muitas outras memórias, muitos outros momentos para celebrarmos juntos.</p>
+                            <p>Te amo mais do que as palavras podem expressar.</p>
+                            <p class="assinatura">Com todo meu amor,<br>Seu Allefe Filipe ❤</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 7: Encerramento -->
+        <section id="encerramento" class="section final-section">
+            <div class="container">
+                <div class="final-message">
+                    <h2 class="final-title">Feliz Dia dos Namorados, meu amor.</h2>
+                    <p class="final-subtitle">E que este seja apenas o começo.</p>
+                    <p class="final-signature">Com carinho, seu Allefe Filipe.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal para Timeline -->
+    <div id="timeline-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="">
+                <div class="modal-text">
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Galeria -->
+    <div id="gallery-modal" class="modal">
+        <div class="modal-content gallery-modal-content">
+            <span class="close">&times;</span>
+            <img id="gallery-modal-image" src="" alt="">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
